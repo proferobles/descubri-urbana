@@ -1,0 +1,5 @@
+var bancos=
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"@id":"node/661035958","housenumber":3915,"street":"Avenida Monteverde","Contacto":"4299-3372","amenity":"bank","atm":"yes","name":"Credicoop"},"geometry":{"type":"Point","coordinates":[-58.4080069,-34.8345122]},"id":"node/661035958"},
+					{"type":"Feature","properties":{"@id":"node/2292026700","housenumber":1951,"street":"Luis Maria Drago","Contacto":"4238 9872/1977/9991/9877","amenity":"bank","name":"Santander Río"},"geometry":{"type":"Point","coordinates":[-58.4149159,-34.8403006]},"id":"node/2292026700"},
+					{"type":"Feature","properties":{"@id":"node/6121366353","housenumber":3793,"street":"Avenida Monteverde","Contacto":"0810-777-3333","amenity":"bank","name":"Galicia"},"geometry":{"type":"Point","coordinates":[-58.4095261,-34.8342806]},"id":"node/6121366353"},
+					{"type":"Feature","properties":{"@id":"node/6121366353","housenumber":2070,"street":"Luis Maria Drago","Contacto":"0800-222-0400","amenity":"bank","name":"Ciudad"},"geometry":{"type":"Point","coordinates":[-58.415030837059014,-34.84099947435659]}}]}

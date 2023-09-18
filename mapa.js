@@ -49,19 +49,19 @@ var azul = L.icon
 
 
 
-	var BURZAPO = L.marker([-34.8333125, -58.40168749], {icon: azul},13).bindPopup("<strong>Burzapo<strong>" + "<br/>" + "Direccion: 25 de Mayo 1208,Ministro Rivadavia" + "<br/>" + "<br/>" +"INSTAGRAM: @ BURZAPOSKATESHOP ").on('click', xxy);
-	var SKATEPARK_GLEW = L.marker([-34.88306, -58.38406], {icon: azul},13).bindPopup("<strong>Skatepark Glew<strong>" + "<br/>" + "Direccion: Jorge Newbery y Paz" + "<br/>" + "<br/>" +"INSTAGRAM: @skatepark_glew ").on('click', xxy);
+	var BURZAPO = L.marker([-34.8333125, -58.40168749], {icon: azul},13).bindPopup("<strong>Burzapo<strong>" + "<br/>" + "Direccion: 25 de Mayo 1208,Ministro Rivadavia" + "<br/>" + "<br/>" +"Instagram: @burzaposkateshop").on('click', xxy);
+	var SKATEPARK_GLEW = L.marker([-34.88306, -58.38406], {icon: azul},13).bindPopup("<strong>Skatepark Glew<strong>" + "<br/>" + "Direccion: Jorge Newbery y Paz" + "<br/>" + "<br/>" +"Instagram: @skatepark_glew").on('click', xxy);
 	var SKATEPARK_ELPLAYON = L.marker([-34.82268, -58.39143], {icon: azul},13).bindPopup("<strong>Skatepark El Playon<strong>" + "<br/>" + "Direccion: Pellegrini y 9 de Julio, Burzaco").on('click', xxy);
 	var SKATEPARK_CLAYPOLE = L.marker([-34.80056, -58.33956], {icon: azul},13).bindPopup("<strong>Skatepark Claypole<strong>" + "<br/>" + "Direccion: Av. 17 de ocubre 442, Claypole").on('click', xxy);	
-	var ESCUELA_DE_CALISTENIA_ALMIRANTE_BROWN = L.marker([-34.84268, -58.37206], {icon: azul},13).bindPopup("<strong>Escuela de Calistenia Brown<strong>" + "<br/>" + "Direccion: 25 de Mayo y Camila Quiroga" + "<br/>" +"INSTAGRAM: @ INSTITUTODELDEPORTEALTEBROWN").on('click', xxy);
-	var CIRCUITO_DE_CALISTENIA_POLIDEPORTIVO_ALMIRANTE_BROWN= L.marker([-34.84268, -58.37206], {icon: azul},13).bindPopup("<strong>Circuito de Calistenia Brown<strong>" + "<br/>" + "Direccion: 25 de Mayo y Camila Quiroga" +"<br/>" + "INSTAGRAM: @ INSTITUTODELDEPORTEALTEBROWN").on('click', xxy);
-	var CIRCUITODECALISTENIAPLAZAPUERTOARGENTINO = L.marker([-34.81656, -58.41793], {icon: azul},13).bindPopup("<strong>CIRCUITO DE CALISTENIA PLAZA PUERTO ARGENTINO<strong>" + "<br/>" + "Direccion: PEDRO ECHAGÜE 299").on('click', xxy);
-	var CIRCUITO_CALISTENIA_MANZANA_1 = L.marker([-34.81856, -58.35318], {icon: azul},13).bindPopup("<strong>CIRCUITO CALISTENIA MANZANA 1 <strong>" + "<br/>" + "Direccion: AV. MONTEVERDE Y FIGUEROA").on('click', xxy);
-	var CIRCUITO_CALISTENIA_LONGCHAMPS= L.marker([-34.86118, -58.38743], {icon: azul},13).bindPopup("<strong>CIRCUITO CALISTENIA LONGCHAMPS<strong>" + "<br/>" + "Direccion: AV. LA AVIACIÓN 889").on('click', xxy);
-	var ENTER_CLUB= L.marker([-34.79931, -58.39206], {icon: azul},13).bindPopup("<strong>ENTER CLUB<strong>" + "<br/>" + "Direccion: SPIRO 1022").on('click', xxy);
-	var EL_TIO_BIZARRO= L.marker([-34.82581, -58.39031], {icon: azul},13).bindPopup("<strong>EL TIO BIZARRO<strong>" + "<br/>" + "Direccion: CARLOS PELLEGRINI 800").on('click', xxy);
-	var EL_AMPARO= L.marker([-34.82581, -58.39031], {icon: azul},13).bindPopup("<strong>EL AMPARO<strong>" + "<br/>" + "Direccion: CARLOS PELLEGRINI 788").on('click', xxy);
-	var HUELGABAR= L.marker([-34.79643, -58.39031], {icon: azul},13).bindPopup("<strong>HUELGA BAR<strong>" + "<br/>" + "Direccion: BARTOLOMÉ MITRE 1299" + "<br/>" +"INSTAGRAM: @HUELGABAR").on('click', xxy);
+	var ESCUELA_DE_CALISTENIA_ALMIRANTE_BROWN = L.marker([-34.84268, -58.37206], {icon: azul},13).bindPopup("<strong>Escuela de Calistenia Brown<strong>" + "<br/>" + "Direccion: 25 de Mayo y Camila Quiroga" + "<br/>" +"Instagram @institutodeldeportealtebrown").on('click', xxy);
+	var CIRCUITO_DE_CALISTENIA_POLIDEPORTIVO_ALMIRANTE_BROWN= L.marker([-34.84268, -58.37206], {icon: azul},13).bindPopup("<strong>Circuito de Calistenia Brown<strong>" + "<br/>" + "Direccion: 25 de Mayo y Camila Quiroga" +"<br/>" + "Instagram @institutodeldeportealtebrown").on('click', xxy);
+	var CIRCUITODECALISTENIAPLAZAPUERTOARGENTINO = L.marker([-34.81656, -58.41793], {icon: azul},13).bindPopup("<strong>Circuito de Calistenia Plaza Puerto Argentino<strong>" + "<br/>" + "Direccion: Pedro Echagüe 299").on('click', xxy);
+	var CIRCUITO_CALISTENIA_MANZANA_1 = L.marker([-34.81856, -58.35318], {icon: azul},13).bindPopup("<strong>Circuito Calistenia Manzana 1 <strong>" + "<br/>" + "Direccion: Av. Monteverde y Figueroa").on('click', xxy);
+	var CIRCUITO_CALISTENIA_LONGCHAMPS= L.marker([-34.86118, -58.38743], {icon: azul},13).bindPopup("<strong>Circuito Calistenia Longchamps<strong>" + "<br/>" + "Direccion: Av. La Aviacion 889").on('click', xxy);
+	var ENTER_CLUB= L.marker([-34.79931, -58.39206], {icon: azul},13).bindPopup("<strong>Enter Club <strong>" + "<br/>" + "Direccion: Spiro 1022").on('click', xxy);
+	var EL_TIO_BIZARRO= L.marker([-34.82581, -58.39031], {icon: azul},13).bindPopup("<strong>El Tio Bizarro<strong>" + "<br/>" + "Direccion:Carlos Pellegrini 800").on('click', xxy);
+	var EL_AMPARO= L.marker([-34.82581, -58.39031], {icon: azul},13).bindPopup("<strong>El Amparo<strong>" + "<br/>" + "Direccion: Carlos Pellegrini 788").on('click', xxy);
+	var HUELGABAR= L.marker([-34.79643, -58.39031], {icon: azul},13).bindPopup("<strong>Huelga Bar<strong>" + "<br/>" + "Direccion: Bartolomé Mitre 1299" + "<br/>" +"Instagram: @huelgabar").on('click', xxy);
 	var THEHOUSEBAR= L.marker([-34.79793, -58.38768], {icon: azul},13).bindPopup("<strong> THE HOUSE BAR  <strong>" + "<br/>" + "Direccion: BARTOLOMÉ CERRETTI 831" + "<br/>" +"IINSTAGRAM: @ THEHOUSEBARFOOD").on('click', xxy);
 	var GIBSONBAR= L.marker([-34.79681, -58.39143], {icon: azul},13).bindPopup("<strong>  GIBSON BAR    <strong>" + "<br/>" + "Direccion: BENIGNO MACÍAS 589 " +"<br/>" + "INSTAGRAM: @ GIBSONBAR_ADROGUE").on('click', xxy);
 	var MEDOBAR= L.marker([-34.79993, -58.39006], {icon: azul},13).bindPopup("<strong> MEDO BAR <strong>" + "<br/>" + "Direccion: PELLERANO 775").on('click', xxy);

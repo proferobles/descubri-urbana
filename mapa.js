@@ -123,7 +123,7 @@ var xxy = function(e){
 	var LABUENAVIDA    = L.marker([-34.79056, -58.37593], {icon: grow},13).bindPopup("<strong> LA BUENA VIDA  <strong>" + "<br/>" + "Dirección: BYNNON 2458"  + "<br/>"+"<A HREF='https://www.instagram.com/labuenavidagrow/'target=_blank>Contacto... </A> ").on('click', xxy).addTo(map);
 	var LASBRUJAS  = L.marker([-34.81718, -58.37418], {icon: grow},13).bindPopup("<strong> LAS BRUJAS  <strong>" + "<br/>" + "Dirección: JOAQUIN V. GONZALEZ 2032"  + "<br/>"+"<A HREF='https://www.instagram.com/las_brujas_grow/'target=_blank>Contacto... </A> ").on('click', xxy).addTo(map);
 	var HH   = L.marker([-34.82406, -58.39431], {icon: grow},13).bindPopup("<strong> HH GROW   <strong>" + "<br/>" + "Dirección: HUMBERTO PRIMO 605"  + "<br/>").on('click', xxy).addTo(map);
-	var HALABALUSA= L.marker([-34.80081, -58.34168], {icon: rec},13).bindPopup("<strong>PLAZA HALABALUSA UNDERGROUND<strong>" + "<br/>" + "Dirección:REMEDIOS DE ESCALADA DE SAN MARTIN Y JUAN JOSÉ PASO").on('click', xxy).addTo(map);
+	var HALABALUSA= L.marker([-34.80081, -58.34168], {icon: punto},13).bindPopup("<strong>PLAZA HALABALUSA UNDERGROUND<strong>" + "<br/>" + "Dirección:REMEDIOS DE ESCALADA DE SAN MARTIN Y JUAN JOSÉ PASO").on('click', xxy).addTo(map);
 	var ROSANEGRA= L.marker([-34.79881, -58.39393], {icon: tatoo},13).bindPopup("<strong>ROSA NEGRA<strong>" + "<br/>" + "Dirección: BARTOLOMÉ MITRE 954 LOC. 5" + "<br/>" +"<A HREF='https://www.instagram.com/rosanegra_tattooshop/'target=_blank>Contacto... </A> ").on('click', xxy).addTo(map);
 	var tatoo1950 = L.marker([-34.79893, -58.39156], {icon: tatoo},13).bindPopup("<strong>1950 TATTOO<strong>" + "<br/>" + "Dirección: SPIRO 1075" + "<br/>" +"<A HREF='https://www.instagram.com/1950tattooshop/'target=_blank>Contacto... </A> ").on('click', xxy).addTo(map);
 	var SHADETATTOO = L.marker([-34.79756, -58.35981], {icon: tatoo},13).bindPopup("<strong>SHADE TATTOO<strong>" + "<br/>" + "Dirección: GENERAL MARTIN DE GUEMES Y CERVANTES" + "<br/>" +"<A HREF='https://www.instagram.com/shadetattoo/'target=_blank>Contacto... </A> ").on('click', xxy).addTo(map);
@@ -334,6 +334,18 @@ var overlays = [
 									" ESTUDIO QUINTO  ": ESTUDIO_QUINTO  ,
 									" LA BRISA  ": LA_BRISA  ,
 									" UNPLUGGED ROCK HOUSE  ": UNPLUGGED_ROCK_HOUSE  ,
+									
+									
+									
+								}	
+                             },
+
+	{
+								groupName : "Puntos de encuntro",
+								expanded : false,
+								layers    : { 
+									"Plaza Halabalusa": HALABALUSA ,
+									
 									
 									
 									

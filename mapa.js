@@ -341,7 +341,7 @@ var overlays = [
                              },
 
 	{
-								groupName : "Puntos de encuntro",
+								groupName : "Puntos de encuentro",
 								expanded : false,
 								layers    : { 
 									"Plaza Halabalusa": HALABALUSA ,
